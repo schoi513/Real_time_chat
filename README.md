@@ -19,20 +19,20 @@ if database is used with going above and beyond
 
 Phases of Completion
 1. First phase
-    a. create users
-    b. create room names
-    c. able to see both works correctly
+    1. create users
+    2. create room names
+    3. able to see both works correctly
     
 2. Second phase
-    a. able to log in the chatroom on both or more parties
-    b. able to see the chats live
-    c. able to see how many users are in the room
-    d. able to leave the chat room
+    1. able to log in the chatroom on both or more parties
+    2. able to see the chats live
+    3. able to see how many users are in the room
+    4. able to leave the chat room
     
 3. Third phase (going above and beyond)
-    a. require sign-ups
-    b. login and logout page for the chatroom
-    c. user can track which chatroom history
+    1. require sign-ups
+    2. login and logout page for the chatroom
+    3. user can track which chatroom history
 
 Built With
    React
