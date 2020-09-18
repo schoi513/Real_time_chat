@@ -22,20 +22,20 @@ Phases of Completion
     a. create users
     b. create room names
     c. able to see both works correctly
+    
 2. Second phase
     a. able to log in the chatroom on both or more parties
     b. able to see the chats live
     c. able to see how many users are in the room
     d. able to leave the chat room
+    
 3. Third phase (going above and beyond)
     a. require sign-ups
     b. login and logout page for the chatroom
     c. user can track which chatroom history
 
 Built With
--React
--
--
+   React
 
 Authors
 Samuel Choi
