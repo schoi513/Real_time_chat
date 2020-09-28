@@ -23,7 +23,7 @@ socket.on('roomUsers', ({ room, users }) => {
 socket.on('message', message => {
     outputMessage(message);
 
-    //Scroll down
+    //The new messages gets scrolled
     chatMessages.scrollTop = chatMessages.scrollHeight;
 
 })
