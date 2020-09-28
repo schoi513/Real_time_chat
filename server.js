@@ -22,7 +22,12 @@ io.on('connection', socket => {
     //Runs when disconnects
     socket.on('disconnect', () => {
         io.emit('message', 'user has left the chat');
-    })
+    });
+
+    //Listen for chatMessage
+    socket.on('chatMessage', msg => {
+        io.emit('message', msg);
+    });
 
 });
 
