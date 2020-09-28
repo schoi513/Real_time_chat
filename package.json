@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/schoi513/Real_time_chat/issues"
   },
-  "homepage": "https://github.com/schoi513/Real_time_chat#readme"
+  "homepage": "https://github.com/schoi513/Real_time_chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
