@@ -1,0 +1,19 @@
+{
+  "name": "real_time_chat",
+  "version": "1.0.0",
+  "description": "LiveChat app ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schoi513/Real_time_chat.git"
+  },
+  "author": "Samuel Choi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schoi513/Real_time_chat/issues"
+  },
+  "homepage": "https://github.com/schoi513/Real_time_chat#readme"
+}
