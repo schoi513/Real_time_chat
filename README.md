@@ -41,6 +41,9 @@ Authors
 Samuel Choi
 
 Links & Resources
+Credit to 'Traversy Media'
 
 
 Future Improvements
+'want to add auth'
+'able to post pictures'
