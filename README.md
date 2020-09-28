@@ -35,7 +35,7 @@ Phases of Completion
     3. user can track which chatroom history
 
 Built With
-   React
+   Node, Express and Socket
 
 Authors
 Samuel Choi
