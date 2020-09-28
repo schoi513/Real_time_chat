@@ -15,12 +15,15 @@ const botName = 'Admin';
 
 // run when client connect
 io.on('connection', socket => {
-    
-    //Welcome current user
+    socket.on('joinRoom', ({ username, room}) => {
+        
+        //Welcome current user
     socket.emit('message', formatMessage(botName, 'Welcome to LiveChat'));
 
     //Broadcast when a user connects
-    socket.broadcast.emit('message', formatMessage(botName, 'New user has joined the chat'));
+    socket.broadcast.emit('message', formatMessage(botName, 'New user has joined the chat')
+    );
+    });
 
     //Runs when disconnects
     socket.on('disconnect', () => {
