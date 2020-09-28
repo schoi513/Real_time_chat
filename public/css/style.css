@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:wght@300&display=swap');
+
 
 :root {
-	--dark-color-a: #667aff;
-	--dark-color-b: #7386ff;
+	--dark-color-a: #10ab41;
+	--dark-color-b: #2ba046;
 	--light-color: #e6e9ff;
 	--success-color: #5cb85c;
 	--error-color: #d9534f;
@@ -130,25 +131,25 @@ a {
 /* Join Page */
 .join-container {
 	max-width: 500px;
-	margin: 80px auto;
+	margin: 75px auto;
 	color: #fff;
 }
 
 .join-header {
 	text-align: center;
-	padding: 20px;
+	padding: 23px;
 	background: var(--dark-color-a);
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
 }
 
 .join-main {
-	padding: 30px 40px;
+	padding: 35px 45px;
 	background: var(--dark-color-b);
 }
 
 .join-main p {
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 .join-main .form-control {
