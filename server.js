@@ -31,14 +31,15 @@ io.on('connection', socket => {
         );
     });
 
-    //Runs when disconnects
-    socket.on('disconnect', () => {
-        io.emit('message', formatMessage(botName, `${user.username} has left the chat`));
-    });
-
     //Listen for chatMessage
     socket.on('chatMessage', msg => {
-        io.emit('message', formatMessage('User', msg));
+    const user = getCurrentUser(socket.id);
+    io.to(user.room).emit('message', formatMessage(user.username, msg));
+    });
+
+    //Runs when disconnects
+    socket.on('disconnect', () => {
+        io.to(user.room).emit('message', formatMessage(botName, `${user.username} has left the chat`));
     });
 
 });
